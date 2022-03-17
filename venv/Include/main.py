@@ -43,7 +43,7 @@ def view_lib():
     else:
         s=''
         for each in library:
-            s=s+'\n'+each
+            s=s+'<br><br>'+each
         return 'Books in lib:\n\n'+s+"<br><br><a href='/'>Home</a>"
 
 
